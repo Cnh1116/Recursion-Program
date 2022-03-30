@@ -5,7 +5,8 @@
 // This represents the size of an array.
 // The program then randomly populates the array with random 
 // integers in a given range. Then, various recursive functions
-// perform random tasks to the array or the specific elements of // the array.
+// perform random tasks to the array or the specific elements of the array.
+
 #include <stdlib.h>
 #include <iomanip>
 #include<time.h>
@@ -19,6 +20,7 @@ void DisplayIndexSquares(int counter, int arraySize);
 void DisplayThirdVertically(int third, int r, int counter, int digits[]);
 int SumOfFirst(int first, int r, int sum);
 bool IsPrime(int last, int n);
+
 //Main--------------------------------------------------------------------
 int main()
 {
